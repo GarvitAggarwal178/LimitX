@@ -54,7 +54,7 @@ setInterval(() => {
     if (Math.random() > 0.7) {
         // Aggressive Buyer
         placeOrder("BUY", askPrice, getRandomInt(1, 50));
-        console.log(`💥 AGGRESSIVE BUY @ $${askPrice}`);
+        console.log(`AGGRESSIVE BUY @ $${askPrice}`);
     }
 
 }, 200); 
